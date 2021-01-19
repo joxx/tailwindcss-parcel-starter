@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss-parcel-starter",
+  "version": "1.0.0",
+  "description": "tailwind parcel starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joxx/tailwindcss-parcel-starter.git"
+  },
+  "author": "joachim kliemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joxx/tailwindcss-parcel-starter/issues"
+  },
+  "homepage": "https://github.com/joxx/tailwindcss-parcel-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.1",
+    "parcel": "^2.0.0-nightly.489",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
